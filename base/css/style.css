@@ -1,0 +1,56 @@
+/*
+* Commentaires
+*/
+/*Global*/
+* {
+    text-align: center;
+    alignment: center;
+}
+
+/*General*/
+body { /*Selection de la balise en l'utilisant par son nom*/
+    background-color: slategrey; /*Couleur de fond*/
+    height: 100vh; /*100% de la height de la viewport*/
+    width: 100vw; /*100% de la width de la viewport*/
+}
+
+/*Header*/
+header {
+    background-color: lightgray;
+    alignment: center;
+}
+
+/*Titre*/
+h1 {
+    text-align: center;
+}
+
+/*Nav*/
+nav {
+    text-align: center;
+}
+
+/*a (les références)*/
+a {
+    text-decoration: none;
+    text-decoration-color: crimson;
+}
+
+/*Les ID vert*/
+#green { /*On utilise le # pour recup une ID*/
+    color: green;
+}
+
+/*Les Class yellow*/
+.yellow { /*On utilise le . pour recup une class*/
+    color: yellow;
+}
+
+/*
+* On va avoir le margin qui représente la marge externe de l'élément
+* margin: 1px 2px 3px 4px; (margin = haut droite bas gauche)
+* margin: 1px 2px; (margin = haut/bas gauche/droite)
+* margin: 10px (partout pareil)
+* margin-top: 10px (margin au top)
+* padding est ma marge intérieure
+*/
